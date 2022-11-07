@@ -5,8 +5,6 @@
 	<parameter name="browser" value="Chrome"/>
     <classes>
       <class name="in.amazon.nagpselenium.TestCases.TC1_VerifyTVStoreIsDisplayed"/>
-      <class name="in.amazon.nagpselenium.TestCases.TC_verify_minimum_discount"/>
-      <class name="in.amazon.nagpselenium.TestCases.TC3_AddedToCart_Message"/>
     </classes>
   </test> <!-- Test -->
 </suite> <!-- Suite -->
