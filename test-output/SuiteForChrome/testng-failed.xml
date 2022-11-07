@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [SuiteForChrome]" guice-stage="DEVELOPMENT">
+  <test thread-count="5" name="RunOnChrome(failed)">
+    <parameter name="browser" value="Chrome"/>
+    <classes>
+      <class name="in.amazon.nagpselenium.TestCases.Verify_Amazon_CommonFunctionalities">
+        <methods>
+          <include name="CreateInstance"/>
+          <include name="Initialize"/>
+          <include name="Finish"/>
+          <include name="TC_SetDeliveryTo_ZipCode_Location"/>
+          <include name="CloseInstance"/>
+        </methods>
+      </class> <!-- in.amazon.nagpselenium.TestCases.Verify_Amazon_CommonFunctionalities -->
+      <class name="in.amazon.nagpselenium.TestCases.Verify_AmazonPrime">
+        <methods>
+          <include name="TC_VerifyPrimeMembership"/>
+          <include name="CreateInstance"/>
+          <include name="Initialize"/>
+          <include name="Finish"/>
+          <include name="CloseInstance"/>
+        </methods>
+      </class> <!-- in.amazon.nagpselenium.TestCases.Verify_AmazonPrime -->
+    </classes>
+  </test> <!-- RunOnChrome(failed) -->
+</suite> <!-- Failed suite [SuiteForChrome] -->

@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [SuiteForInternetExplorer]" guice-stage="DEVELOPMENT">
+  <test thread-count="5" name="TestonIE(failed)">
+    <parameter name="browser" value="InternetExplorer"/>
+    <groups>
+      <run>
+        <include name="Firefox"/>
+      </run>
+    </groups>
+    <classes>
+      <class name="in.amazon.nagpselenium.TestCases.Validate_CreateAccountForMultipleUser_AmazonSignIn">
+        <methods>
+          <include name="TC_Login"/>
+          <include name="Initialize"/>
+          <include name="CreateInstance"/>
+          <include name="CloseInstance"/>
+        </methods>
+      </class> <!-- in.amazon.nagpselenium.TestCases.Validate_CreateAccountForMultipleUser_AmazonSignIn -->
+    </classes>
+  </test> <!-- TestonIE(failed) -->
+</suite> <!-- Failed suite [SuiteForInternetExplorer] -->

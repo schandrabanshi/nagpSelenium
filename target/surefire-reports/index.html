@@ -1,0 +1,798 @@
+<!DOCTYPE html>
+
+<html>
+  <head>
+  <meta charset='utf-8'>
+  <title>TestNG reports</title>
+
+    <link type="text/css" href="testng-reports1.css" rel="stylesheet" id="ultra" />
+    <link type="text/css" href="testng-reports.css" rel="stylesheet" id="retro" disabled="false"/>
+    <script type="text/javascript" src="jquery.min.js"></script>
+    <script type="text/javascript" src="testng-reports.js"></script>
+    <script type="text/javascript" src="https://www.google.com/jsapi"></script>
+    <script type='text/javascript'>
+      google.load('visualization', '1', {packages:['table']});
+      google.setOnLoadCallback(drawTable);
+      var suiteTableInitFunctions = new Array();
+      var suiteTableData = new Array();
+    </script>
+    <!--
+      <script type="text/javascript" src="jquery-ui/js/jquery-ui-1.8.16.custom.min.js"></script>
+     -->
+  </head>
+
+  <body>
+    <div class="top-banner-root">
+      <span class="top-banner-title-font">Test results</span>
+      <button class="button" id="button">Switch Retro Theme</button> <!-- button -->
+      <br/>
+      <span class="top-banner-font-1">1 suite, 4 failed tests</span>
+    </div> <!-- top-banner-root -->
+    <div class="navigator-root">
+      <div class="navigator-suite-header">
+        <span>All suites</span>
+        <a href="#" class="collapse-all-link" title="Collapse/expand all the suites">
+          <img class="collapse-all-icon" src="collapseall.gif">
+          </img> <!-- collapse-all-icon -->
+        </a> <!-- collapse-all-link -->
+      </div> <!-- navigator-suite-header -->
+      <div class="suite">
+        <div class="rounded-window">
+          <div class="suite-header light-rounded-window-top">
+            <a href="#" class="navigator-link" panel-name="suite-SuiteForChrome">
+              <span class="suite-name border-failed">SuiteForChrome</span>
+            </a> <!-- navigator-link -->
+          </div> <!-- suite-header light-rounded-window-top -->
+          <div class="navigator-suite-content">
+            <div class="suite-section-title">
+              <span>Info</span>
+            </div> <!-- suite-section-title -->
+            <div class="suite-section-content">
+              <ul>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="test-xml-SuiteForChrome">
+                    <span>C:\Users\sarojchandrabanshi\eclipse-workspace\in.amazon.nagpselenium\testingBrowserChrome.xml</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="testlist-SuiteForChrome">
+                    <span class="test-stats">1 test</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="group-SuiteForChrome">
+                    <span>3 groups</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="times-SuiteForChrome">
+                    <span>Times</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="reporter-SuiteForChrome">
+                    <span>Reporter output</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="ignored-methods-SuiteForChrome">
+                    <span>Ignored methods</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="chronological-SuiteForChrome">
+                    <span>Chronological view</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+              </ul>
+            </div> <!-- suite-section-content -->
+            <div class="result-section">
+              <div class="suite-section-title">
+                <span>Results</span>
+              </div> <!-- suite-section-title -->
+              <div class="suite-section-content">
+                <ul>
+                  <li>
+                    <span class="method-stats">11 methods, 4 failed,   7 passed</span>
+                  </li>
+                  <li>
+                    <span class="method-list-title failed">Failed methods</span>
+                    <span class="show-or-hide-methods failed">
+                      <a href="#" panel-name="suite-SuiteForChrome" class="hide-methods failed suite-SuiteForChrome"> (hide)</a> <!-- hide-methods failed suite-SuiteForChrome -->
+                      <a href="#" panel-name="suite-SuiteForChrome" class="show-methods failed suite-SuiteForChrome"> (show)</a> <!-- show-methods failed suite-SuiteForChrome -->
+                    </span>
+                    <div class="method-list-content failed suite-SuiteForChrome">
+                      <span>
+                        <img width="3%" src="failed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-SuiteForChrome" title="in.amazon.nagpselenium.TestCases.Verify_Amazon_CommonFunctionalities" hash-for-method="TC_SetDeliveryTo_ZipCode_Location">TC_SetDeliveryTo_ZipCode_Location</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="failed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-SuiteForChrome" title="in.amazon.nagpselenium.TestCases.Verify_Amazon_CommonFunctionalities" hash-for-method="TC_ValidateHomePage(public void in.amazon.nagpselenium.TestCases.Verify_Amazon_CommonFunctionalities.TC_ValidateHomePage...)">TC_ValidateHomePage(public void in.amazon.nagpselenium.TestCases.Verify_Amazon_CommonFunctionalities.TC_ValidateHomePage...)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="failed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-SuiteForChrome" title="in.amazon.nagpselenium.TestCases.Verify_AmazonPrime" hash-for-method="TC_VerifyPrimeMembership">TC_VerifyPrimeMembership</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="failed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-SuiteForChrome" title="in.amazon.nagpselenium.TestCases.Verify_Amazon_CommonFunctionalities" hash-for-method="TC_VeriyCustomerService">TC_VeriyCustomerService</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                    </div> <!-- method-list-content failed suite-SuiteForChrome -->
+                  </li>
+                  <li>
+                    <span class="method-list-title passed">Passed methods</span>
+                    <span class="show-or-hide-methods passed">
+                      <a href="#" panel-name="suite-SuiteForChrome" class="hide-methods passed suite-SuiteForChrome"> (hide)</a> <!-- hide-methods passed suite-SuiteForChrome -->
+                      <a href="#" panel-name="suite-SuiteForChrome" class="show-methods passed suite-SuiteForChrome"> (show)</a> <!-- show-methods passed suite-SuiteForChrome -->
+                    </span>
+                    <div class="method-list-content passed suite-SuiteForChrome">
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-SuiteForChrome" title="in.amazon.nagpselenium.TestCases.Validate_CreateAccountForMultipleUser_AmazonSignIn" hash-for-method="TC_CreateNewAccount(Ankita, Ankitatest@test.com, 9952575907, testtest_3)">TC_CreateNewAccount(Ankita, Ankitatest@test.com, 9952575907, testtest_3)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-SuiteForChrome" title="in.amazon.nagpselenium.TestCases.Validate_CreateAccountForMultipleUser_AmazonSignIn" hash-for-method="TC_CreateNewAccount(Saroj, sarojkumar@test.com, 9952575909, testtest_2)">TC_CreateNewAccount(Saroj, sarojkumar@test.com, 9952575909, testtest_2)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-SuiteForChrome" title="in.amazon.nagpselenium.TestCases.Validate_CreateAccountForMultipleUser_AmazonSignIn" hash-for-method="TC_CreateNewAccount(Deeksha, deelshatest@test.com, 9952575905, testtest_5)">TC_CreateNewAccount(Deeksha, deelshatest@test.com, 9952575905, testtest_5)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-SuiteForChrome" title="in.amazon.nagpselenium.TestCases.Validate_CreateAccountForMultipleUser_AmazonSignIn" hash-for-method="TC_CreateNewAccount(Abhay, Abhayjkumar@test.com, 9952575906, testtest_4)">TC_CreateNewAccount(Abhay, Abhayjkumar@test.com, 9952575906, testtest_4)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-SuiteForChrome" title="in.amazon.nagpselenium.TestCases.Validate_CreateAccountForMultipleUser_AmazonSignIn" hash-for-method="TC_Login">TC_Login</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-SuiteForChrome" title="in.amazon.nagpselenium.TestCases.Validate_AmazonCart" hash-for-method="TC_SearchAndAddToCart(public void in.amazon.nagpselenium.TestCases.Validate_AmazonCart.TC_SearchAndAddToCart(java.lang.ref...)">TC_SearchAndAddToCart(public void in.amazon.nagpselenium.TestCases.Validate_AmazonCart.TC_SearchAndAddToCart(java.lang.ref...)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-SuiteForChrome" title="in.amazon.nagpselenium.TestCases.Validate_AmazonCart" hash-for-method="TC_VerifyCart(public void in.amazon.nagpselenium.TestCases.Validate_AmazonCart.TC_VerifyCart(java.lang.reflect.Met...)">TC_VerifyCart(public void in.amazon.nagpselenium.TestCases.Validate_AmazonCart.TC_VerifyCart(java.lang.reflect.Met...)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                    </div> <!-- method-list-content passed suite-SuiteForChrome -->
+                  </li>
+                </ul>
+              </div> <!-- suite-section-content -->
+            </div> <!-- result-section -->
+          </div> <!-- navigator-suite-content -->
+        </div> <!-- rounded-window -->
+      </div> <!-- suite -->
+    </div> <!-- navigator-root -->
+    <div class="wrapper">
+      <div class="main-panel-root">
+        <div panel-name="suite-SuiteForChrome" class="panel SuiteForChrome">
+          <div class="suite-SuiteForChrome-class-failed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="failed.png"/>
+              <span class="class-name">in.amazon.nagpselenium.TestCases.Verify_AmazonPrime</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="TC_VerifyPrimeMembership">
+                  </a> <!-- TC_VerifyPrimeMembership -->
+                  <span class="method-name">TC_VerifyPrimeMembership</span>
+                  <div class="stack-trace">org.openqa.selenium.TimeoutException: Expected condition failed: waiting for visibility of Proxy element for: DefaultElementLocator &apos;By.id: nav-link-prime&apos; (tried for 60 second(s) with 500 milliseconds interval)
+	at org.openqa.selenium.support.ui.WebDriverWait.timeoutException(WebDriverWait.java:87)
+	at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:231)
+	at in.amazon.nagpselenium.common.util.Base.Wait(Base.java:116)
+	at in.amazon.nagpselenium.pages.prime.verifyPrimeMembershipPage(prime.java:45)
+	at in.amazon.nagpselenium.TestCases.Verify_AmazonPrime.TC_VerifyPrimeMembership(Verify_AmazonPrime.java:20)
+	at java.util.ArrayList.forEach(ArrayList.java:1259)
+Caused by: org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {&quot;method&quot;:&quot;css selector&quot;,&quot;selector&quot;:&quot;#nav\-link\-prime&quot;}
+  (Session info: chrome=102.0.5005.115)
+For documentation on this error, please visit: https://selenium.dev/exceptions/#no_such_element
+Build info: version: &apos;4.1.4&apos;, revision: &apos;535d840ee2&apos;
+System info: host: &apos;SAROJCHANDRA-01&apos;, ip: &apos;172.20.10.2&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;1.8.0_281&apos;
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [3402c080eb50e74da4106494c6f67475, findElement {using=id, value=nav-link-prime}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 102.0.5005.115, chrome: {chromedriverVersion: 102.0.5005.61 (0e59bcc00cc4..., userDataDir: C:\Users\SAROJC~1\AppData\L...}, goog:chromeOptions: {debuggerAddress: localhost:54238}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:54238/devtoo..., se:cdpVersion: 102.0.5005.115, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 3402c080eb50e74da4106494c6f67475
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:200)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:133)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:53)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:184)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:167)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:142)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:567)
+	at org.openqa.selenium.remote.ElementLocation$ElementFinder$2.findElement(ElementLocation.java:162)
+	at org.openqa.selenium.remote.ElementLocation.findElement(ElementLocation.java:60)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:385)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:377)
+	at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:70)
+	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:39)
+	at com.sun.proxy.$Proxy32.isDisplayed(Unknown Source)
+	at org.openqa.selenium.support.ui.ExpectedConditions.elementIfVisible(ExpectedConditions.java:307)
+	at org.openqa.selenium.support.ui.ExpectedConditions.access$000(ExpectedConditions.java:40)
+	at org.openqa.selenium.support.ui.ExpectedConditions$10.apply(ExpectedConditions.java:293)
+	at org.openqa.selenium.support.ui.ExpectedConditions$10.apply(ExpectedConditions.java:290)
+	at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:208)
+	... 35 more
+... Removed 35 stack frames
+</div> <!-- stack-trace -->
+                  <em>
+(Verify Join/login to prime membership option on Prime page.)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-SuiteForChrome-class-failed -->
+          <div class="suite-SuiteForChrome-class-failed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="failed.png"/>
+              <span class="class-name">in.amazon.nagpselenium.TestCases.Verify_Amazon_CommonFunctionalities</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="TC_SetDeliveryTo_ZipCode_Location">
+                  </a> <!-- TC_SetDeliveryTo_ZipCode_Location -->
+                  <span class="method-name">TC_SetDeliveryTo_ZipCode_Location</span>
+                  <div class="stack-trace">org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {&quot;method&quot;:&quot;css selector&quot;,&quot;selector&quot;:&quot;#nav\-global\-location\-popover\-link&quot;}
+  (Session info: chrome=102.0.5005.115)
+For documentation on this error, please visit: https://selenium.dev/exceptions/#no_such_element
+Build info: version: &apos;4.1.4&apos;, revision: &apos;535d840ee2&apos;
+System info: host: &apos;SAROJCHANDRA-01&apos;, ip: &apos;172.20.10.2&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;1.8.0_281&apos;
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [3402c080eb50e74da4106494c6f67475, findElement {using=id, value=nav-global-location-popover-link}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 102.0.5005.115, chrome: {chromedriverVersion: 102.0.5005.61 (0e59bcc00cc4..., userDataDir: C:\Users\SAROJC~1\AppData\L...}, goog:chromeOptions: {debuggerAddress: localhost:54238}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:54238/devtoo..., se:cdpVersion: 102.0.5005.115, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 3402c080eb50e74da4106494c6f67475
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:200)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:133)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:53)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:184)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:167)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:142)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:567)
+	at org.openqa.selenium.remote.ElementLocation$ElementFinder$2.findElement(ElementLocation.java:162)
+	at org.openqa.selenium.remote.ElementLocation.findElement(ElementLocation.java:60)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:385)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:377)
+	at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:70)
+	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:39)
+	at com.sun.proxy.$Proxy32.click(Unknown Source)
+	at in.amazon.nagpselenium.pages.deliveryAddress.setDeliveryZipCode(deliveryAddress.java:44)
+	at in.amazon.nagpselenium.TestCases.Verify_Amazon_CommonFunctionalities.TC_SetDeliveryTo_ZipCode_Location(Verify_Amazon_CommonFunctionalities.java:42)
+	at java.util.ArrayList.forEach(ArrayList.java:1259)
+... Removed 35 stack frames
+</div> <!-- stack-trace -->
+                  <em>
+(Setting delivery zip/post code and verifying city.)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="TC_ValidateHomePage(public void in.amazon.nagpselenium.TestCases.Verify_Amazon_CommonFunctionalities.TC_ValidateHomePage...)">
+                  </a> <!-- TC_ValidateHomePage(public void in.amazon.nagpselenium.TestCases.Verify_Amazon_CommonFunctionalities.TC_ValidateHomePage...) -->
+                  <span class="method-name">TC_ValidateHomePage</span>
+                  <span class="parameters">(public void in.amazon.nagpselenium.TestCases.Verify_Amazon_CommonFunctionalities.TC_ValidateHomePage(java.lang.reflect.Method) throws java.io.IOException)</span>
+                  <div class="stack-trace">org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {&quot;method&quot;:&quot;css selector&quot;,&quot;selector&quot;:&quot;#nav\-logo\-sprites&quot;}
+  (Session info: chrome=102.0.5005.115)
+For documentation on this error, please visit: https://selenium.dev/exceptions/#no_such_element
+Build info: version: &apos;4.1.4&apos;, revision: &apos;535d840ee2&apos;
+System info: host: &apos;SAROJCHANDRA-01&apos;, ip: &apos;172.20.10.2&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;1.8.0_281&apos;
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [3402c080eb50e74da4106494c6f67475, findElement {using=id, value=nav-logo-sprites}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 102.0.5005.115, chrome: {chromedriverVersion: 102.0.5005.61 (0e59bcc00cc4..., userDataDir: C:\Users\SAROJC~1\AppData\L...}, goog:chromeOptions: {debuggerAddress: localhost:54238}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:54238/devtoo..., se:cdpVersion: 102.0.5005.115, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 3402c080eb50e74da4106494c6f67475
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:200)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:133)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:53)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:184)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:167)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:142)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:567)
+	at org.openqa.selenium.remote.ElementLocation$ElementFinder$2.findElement(ElementLocation.java:162)
+	at org.openqa.selenium.remote.ElementLocation.findElement(ElementLocation.java:66)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:385)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:377)
+	at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:70)
+	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:39)
+	at com.sun.proxy.$Proxy32.isDisplayed(Unknown Source)
+	at in.amazon.nagpselenium.pages.homePage.verifyLogo(homePage.java:43)
+	at in.amazon.nagpselenium.TestCases.Verify_Amazon_CommonFunctionalities.TC_ValidateHomePage(Verify_Amazon_CommonFunctionalities.java:22)
+	at java.util.ArrayList.forEach(ArrayList.java:1259)
+... Removed 35 stack frames
+</div> <!-- stack-trace -->
+                  <em>
+(Verifying Amazon.in Home page with some of the functionality present.)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="TC_VeriyCustomerService">
+                  </a> <!-- TC_VeriyCustomerService -->
+                  <span class="method-name">TC_VeriyCustomerService</span>
+                  <div class="stack-trace">org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {&quot;method&quot;:&quot;css selector&quot;,&quot;selector&quot;:&quot;#nav\-hamburger\-menu&quot;}
+  (Session info: chrome=102.0.5005.115)
+For documentation on this error, please visit: https://selenium.dev/exceptions/#no_such_element
+Build info: version: &apos;4.1.4&apos;, revision: &apos;535d840ee2&apos;
+System info: host: &apos;SAROJCHANDRA-01&apos;, ip: &apos;172.20.10.2&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;1.8.0_281&apos;
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [3402c080eb50e74da4106494c6f67475, findElement {using=id, value=nav-hamburger-menu}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 102.0.5005.115, chrome: {chromedriverVersion: 102.0.5005.61 (0e59bcc00cc4..., userDataDir: C:\Users\SAROJC~1\AppData\L...}, goog:chromeOptions: {debuggerAddress: localhost:54238}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:54238/devtoo..., se:cdpVersion: 102.0.5005.115, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 3402c080eb50e74da4106494c6f67475
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:200)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:133)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:53)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:184)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:167)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:142)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:567)
+	at org.openqa.selenium.remote.ElementLocation$ElementFinder$2.findElement(ElementLocation.java:162)
+	at org.openqa.selenium.remote.ElementLocation.findElement(ElementLocation.java:60)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:385)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:377)
+	at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:70)
+	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:39)
+	at com.sun.proxy.$Proxy32.click(Unknown Source)
+	at in.amazon.nagpselenium.pages.cutomerService.navigateToCustomerService(cutomerService.java:41)
+	at in.amazon.nagpselenium.TestCases.Verify_Amazon_CommonFunctionalities.TC_VeriyCustomerService(Verify_Amazon_CommonFunctionalities.java:36)
+	at java.util.ArrayList.forEach(ArrayList.java:1259)
+... Removed 35 stack frames
+</div> <!-- stack-trace -->
+                  <em>
+(Verify Help - Amazon Customer Service page.)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-SuiteForChrome-class-failed -->
+          <div class="suite-SuiteForChrome-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">in.amazon.nagpselenium.TestCases.Validate_AmazonCart</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="TC_SearchAndAddToCart(public void in.amazon.nagpselenium.TestCases.Validate_AmazonCart.TC_SearchAndAddToCart(java.lang.ref...)">
+                  </a> <!-- TC_SearchAndAddToCart(public void in.amazon.nagpselenium.TestCases.Validate_AmazonCart.TC_SearchAndAddToCart(java.lang.ref...) -->
+                  <span class="method-name">TC_SearchAndAddToCart</span>
+                  <span class="parameters">(public void in.amazon.nagpselenium.TestCases.Validate_AmazonCart.TC_SearchAndAddToCart(java.lang.reflect.Method) throws java.io.IOException)</span>
+                  <em>
+(Searching iteams and addind to cart.)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="TC_VerifyCart(public void in.amazon.nagpselenium.TestCases.Validate_AmazonCart.TC_VerifyCart(java.lang.reflect.Met...)">
+                  </a> <!-- TC_VerifyCart(public void in.amazon.nagpselenium.TestCases.Validate_AmazonCart.TC_VerifyCart(java.lang.reflect.Met...) -->
+                  <span class="method-name">TC_VerifyCart</span>
+                  <span class="parameters">(public void in.amazon.nagpselenium.TestCases.Validate_AmazonCart.TC_VerifyCart(java.lang.reflect.Method) throws java.lang.NumberFormatException,java.io.IOException)</span>
+                  <em>
+(Verifying cart count and cart page added iteams.)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-SuiteForChrome-class-passed -->
+          <div class="suite-SuiteForChrome-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">in.amazon.nagpselenium.TestCases.Validate_CreateAccountForMultipleUser_AmazonSignIn</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="TC_CreateNewAccount(Ankita, Ankitatest@test.com, 9952575907, testtest_3)">
+                  </a> <!-- TC_CreateNewAccount(Ankita, Ankitatest@test.com, 9952575907, testtest_3) -->
+                  <span class="method-name">TC_CreateNewAccount</span>
+                  <span class="parameters">(Ankita, Ankitatest@test.com, 9952575907, testtest_3)</span>
+                  <em>
+(Verifying Create Account page with multiple user details fom excel data file.)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="TC_CreateNewAccount(Saroj, sarojkumar@test.com, 9952575909, testtest_2)">
+                  </a> <!-- TC_CreateNewAccount(Saroj, sarojkumar@test.com, 9952575909, testtest_2) -->
+                  <span class="method-name">TC_CreateNewAccount</span>
+                  <span class="parameters">(Saroj, sarojkumar@test.com, 9952575909, testtest_2)</span>
+                  <em>
+(Verifying Create Account page with multiple user details fom excel data file.)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="TC_CreateNewAccount(Deeksha, deelshatest@test.com, 9952575905, testtest_5)">
+                  </a> <!-- TC_CreateNewAccount(Deeksha, deelshatest@test.com, 9952575905, testtest_5) -->
+                  <span class="method-name">TC_CreateNewAccount</span>
+                  <span class="parameters">(Deeksha, deelshatest@test.com, 9952575905, testtest_5)</span>
+                  <em>
+(Verifying Create Account page with multiple user details fom excel data file.)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="TC_CreateNewAccount(Abhay, Abhayjkumar@test.com, 9952575906, testtest_4)">
+                  </a> <!-- TC_CreateNewAccount(Abhay, Abhayjkumar@test.com, 9952575906, testtest_4) -->
+                  <span class="method-name">TC_CreateNewAccount</span>
+                  <span class="parameters">(Abhay, Abhayjkumar@test.com, 9952575906, testtest_4)</span>
+                  <em>
+(Verifying Create Account page with multiple user details fom excel data file.)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="TC_Login">
+                  </a> <!-- TC_Login -->
+                  <span class="method-name">TC_Login</span>
+                  <em>
+(Login to Amzon using correct email but wrong password and verifying alert message.)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-SuiteForChrome-class-passed -->
+        </div> <!-- panel SuiteForChrome -->
+        <div panel-name="test-xml-SuiteForChrome" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">C:\Users\sarojchandrabanshi\eclipse-workspace\in.amazon.nagpselenium\testingBrowserChrome.xml</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <pre>
+&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&gt;
+&lt;!DOCTYPE suite SYSTEM &quot;https://testng.org/testng-1.0.dtd&quot;&gt;
+&lt;suite guice-stage=&quot;DEVELOPMENT&quot; verbose=&quot;0&quot; name=&quot;SuiteForChrome&quot;&gt;
+  &lt;test thread-count=&quot;5&quot; verbose=&quot;0&quot; name=&quot;RunOnChrome&quot;&gt;
+    &lt;parameter name=&quot;browser&quot; value=&quot;Chrome&quot;/&gt;
+    &lt;classes&gt;
+      &lt;class name=&quot;in.amazon.nagpselenium.TestCases.Verify_Amazon_CommonFunctionalities&quot;/&gt;
+      &lt;class name=&quot;in.amazon.nagpselenium.TestCases.Validate_CreateAccountForMultipleUser_AmazonSignIn&quot;/&gt;
+      &lt;class name=&quot;in.amazon.nagpselenium.TestCases.Verify_AmazonPrime&quot;/&gt;
+      &lt;class name=&quot;in.amazon.nagpselenium.TestCases.Validate_AmazonCart&quot;/&gt;
+    &lt;/classes&gt;
+  &lt;/test&gt; &lt;!-- RunOnChrome --&gt;
+&lt;/suite&gt; &lt;!-- SuiteForChrome --&gt;
+            </pre>
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="testlist-SuiteForChrome" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Tests for SuiteForChrome</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <ul>
+              <li>
+                <span class="test-name">RunOnChrome (4 classes)</span>
+              </li>
+            </ul>
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="group-SuiteForChrome" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Groups for SuiteForChrome</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="test-group">
+              <span class="test-group-name">Chrome</span>
+              <br/>
+              <div class="method-in-group">
+                <span class="method-in-group-name">TC_CreateNewAccount</span>
+                <br/>
+              </div> <!-- method-in-group -->
+              <div class="method-in-group">
+                <span class="method-in-group-name">TC_Login</span>
+                <br/>
+              </div> <!-- method-in-group -->
+              <div class="method-in-group">
+                <span class="method-in-group-name">TC_SearchAndAddToCart</span>
+                <br/>
+              </div> <!-- method-in-group -->
+              <div class="method-in-group">
+                <span class="method-in-group-name">TC_SetDeliveryTo_ZipCode_Location</span>
+                <br/>
+              </div> <!-- method-in-group -->
+              <div class="method-in-group">
+                <span class="method-in-group-name">TC_ValidateHomePage</span>
+                <br/>
+              </div> <!-- method-in-group -->
+              <div class="method-in-group">
+                <span class="method-in-group-name">TC_VerifyCart</span>
+                <br/>
+              </div> <!-- method-in-group -->
+              <div class="method-in-group">
+                <span class="method-in-group-name">TC_VerifyPrimeMembership</span>
+                <br/>
+              </div> <!-- method-in-group -->
+              <div class="method-in-group">
+                <span class="method-in-group-name">TC_VeriyCustomerService</span>
+                <br/>
+              </div> <!-- method-in-group -->
+            </div> <!-- test-group -->
+            <div class="test-group">
+              <span class="test-group-name">Edge</span>
+              <br/>
+              <div class="method-in-group">
+                <span class="method-in-group-name">TC_Login</span>
+                <br/>
+              </div> <!-- method-in-group -->
+            </div> <!-- test-group -->
+            <div class="test-group">
+              <span class="test-group-name">Firefox</span>
+              <br/>
+              <div class="method-in-group">
+                <span class="method-in-group-name">TC_Login</span>
+                <br/>
+              </div> <!-- method-in-group -->
+              <div class="method-in-group">
+                <span class="method-in-group-name">TC_SetDeliveryTo_ZipCode_Location</span>
+                <br/>
+              </div> <!-- method-in-group -->
+              <div class="method-in-group">
+                <span class="method-in-group-name">TC_VerifyPrimeMembership</span>
+                <br/>
+              </div> <!-- method-in-group -->
+            </div> <!-- test-group -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="times-SuiteForChrome" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Times for SuiteForChrome</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="times-div">
+              <script type="text/javascript">
+suiteTableInitFunctions.push('tableData_SuiteForChrome');
+function tableData_SuiteForChrome() {
+var data = new google.visualization.DataTable();
+data.addColumn('number', 'Number');
+data.addColumn('string', 'Method');
+data.addColumn('string', 'Class');
+data.addColumn('number', 'Time (ms)');
+data.addRows(11);
+data.setCell(0, 0, 0)
+data.setCell(0, 1, 'TC_VerifyPrimeMembership')
+data.setCell(0, 2, 'in.amazon.nagpselenium.TestCases.Verify_AmazonPrime')
+data.setCell(0, 3, 90606);
+data.setCell(1, 0, 1)
+data.setCell(1, 1, 'TC_SearchAndAddToCart')
+data.setCell(1, 2, 'in.amazon.nagpselenium.TestCases.Validate_AmazonCart')
+data.setCell(1, 3, 21668);
+data.setCell(2, 0, 2)
+data.setCell(2, 1, 'TC_Login')
+data.setCell(2, 2, 'in.amazon.nagpselenium.TestCases.Validate_CreateAccountForMultipleUser_AmazonSignIn')
+data.setCell(2, 3, 14054);
+data.setCell(3, 0, 3)
+data.setCell(3, 1, 'TC_CreateNewAccount')
+data.setCell(3, 2, 'in.amazon.nagpselenium.TestCases.Validate_CreateAccountForMultipleUser_AmazonSignIn')
+data.setCell(3, 3, 8901);
+data.setCell(4, 0, 4)
+data.setCell(4, 1, 'TC_VerifyCart')
+data.setCell(4, 2, 'in.amazon.nagpselenium.TestCases.Validate_AmazonCart')
+data.setCell(4, 3, 8734);
+data.setCell(5, 0, 5)
+data.setCell(5, 1, 'TC_CreateNewAccount')
+data.setCell(5, 2, 'in.amazon.nagpselenium.TestCases.Validate_CreateAccountForMultipleUser_AmazonSignIn')
+data.setCell(5, 3, 8567);
+data.setCell(6, 0, 6)
+data.setCell(6, 1, 'TC_CreateNewAccount')
+data.setCell(6, 2, 'in.amazon.nagpselenium.TestCases.Validate_CreateAccountForMultipleUser_AmazonSignIn')
+data.setCell(6, 3, 8314);
+data.setCell(7, 0, 7)
+data.setCell(7, 1, 'TC_CreateNewAccount')
+data.setCell(7, 2, 'in.amazon.nagpselenium.TestCases.Validate_CreateAccountForMultipleUser_AmazonSignIn')
+data.setCell(7, 3, 8211);
+data.setCell(8, 0, 8)
+data.setCell(8, 1, 'TC_ValidateHomePage')
+data.setCell(8, 2, 'in.amazon.nagpselenium.TestCases.Verify_Amazon_CommonFunctionalities')
+data.setCell(8, 3, 803);
+data.setCell(9, 0, 9)
+data.setCell(9, 1, 'TC_SetDeliveryTo_ZipCode_Location')
+data.setCell(9, 2, 'in.amazon.nagpselenium.TestCases.Verify_Amazon_CommonFunctionalities')
+data.setCell(9, 3, 27);
+data.setCell(10, 0, 10)
+data.setCell(10, 1, 'TC_VeriyCustomerService')
+data.setCell(10, 2, 'in.amazon.nagpselenium.TestCases.Verify_Amazon_CommonFunctionalities')
+data.setCell(10, 3, 17);
+window.suiteTableData['SuiteForChrome']= { tableData: data, tableDiv: 'times-div-SuiteForChrome'}
+return data;
+}
+              </script>
+              <span class="suite-total-time">Total running time: 2 minutes</span>
+              <div id="times-div-SuiteForChrome">
+              </div> <!-- times-div-SuiteForChrome -->
+            </div> <!-- times-div -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="reporter-SuiteForChrome" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Reporter output for SuiteForChrome</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="ignored-methods-SuiteForChrome" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">6 ignored methods</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="ignored-class-div">
+              <span class="ignored-class-name">in.amazon.nagpselenium.TestCases.Validate_AmazonCart</span>
+              <div class="ignored-methods-div">
+                <span class="ignored-method-name">Finish</span>
+                <br/>
+                <span class="ignored-method-name">CloseInstance</span>
+                <br/>
+              </div> <!-- ignored-methods-div -->
+            </div> <!-- ignored-class-div -->
+            <div class="ignored-class-div">
+              <span class="ignored-class-name">in.amazon.nagpselenium.TestCases.Verify_AmazonPrime</span>
+              <div class="ignored-methods-div">
+                <span class="ignored-method-name">CloseInstance</span>
+                <br/>
+                <span class="ignored-method-name">Finish</span>
+                <br/>
+              </div> <!-- ignored-methods-div -->
+            </div> <!-- ignored-class-div -->
+            <div class="ignored-class-div">
+              <span class="ignored-class-name">in.amazon.nagpselenium.TestCases.Validate_CreateAccountForMultipleUser_AmazonSignIn</span>
+              <div class="ignored-methods-div">
+                <span class="ignored-method-name">CloseInstance</span>
+                <br/>
+                <span class="ignored-method-name">Finish</span>
+                <br/>
+              </div> <!-- ignored-methods-div -->
+            </div> <!-- ignored-class-div -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="chronological-SuiteForChrome" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Methods in chronological order</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="chronological-class">
+              <div class="chronological-class-name">in.amazon.nagpselenium.TestCases.Verify_Amazon_CommonFunctionalities</div> <!-- chronological-class-name -->
+              <div class="configuration-class before">
+                <span class="method-name">Initialize(Chrome)</span>
+                <span class="method-start">0 ms</span>
+              </div> <!-- configuration-class before -->
+              <div class="configuration-method before">
+                <span class="method-name">CreateInstance(public void in.amazon.nagpselenium.TestCases.Verify_Amazon_CommonFunctionalities.TC_ValidateHomePage...)</span>
+                <span class="method-start">24279 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">TC_ValidateHomePage(public void in.amazon.nagpselenium.TestCases.Verify_Amazon_CommonFunctionalities.TC_ValidateHomePage...)</span>
+                <span class="method-start">29723 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method before">
+                <span class="method-name">CreateInstance(public void in.amazon.nagpselenium.TestCases.Verify_Amazon_CommonFunctionalities.TC_VeriyCustomerSer...)</span>
+                <span class="method-start">36300 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">TC_VeriyCustomerService</span>
+                <span class="method-start">36303 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method before">
+                <span class="method-name">CreateInstance(public void in.amazon.nagpselenium.TestCases.Verify_Amazon_CommonFunctionalities.TC_SetDeliveryTo_Zi...)</span>
+                <span class="method-start">39967 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">TC_SetDeliveryTo_ZipCode_Location</span>
+                <span class="method-start">39978 ms</span>
+              </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">in.amazon.nagpselenium.TestCases.Validate_CreateAccountForMultipleUser_AmazonSignIn</div> <!-- chronological-class-name -->
+              <div class="configuration-class before">
+                <span class="method-name">Initialize(Chrome)</span>
+                <span class="method-start">40869 ms</span>
+              </div> <!-- configuration-class before -->
+              <div class="configuration-method before">
+                <span class="method-name">CreateInstance(public void in.amazon.nagpselenium.TestCases.Validate_CreateAccountForMultipleUser_AmazonSignIn.TC_L...)</span>
+                <span class="method-start">61275 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">TC_Login</span>
+                <span class="method-start">61287 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method before">
+                <span class="method-name">CreateInstance(public void in.amazon.nagpselenium.TestCases.Validate_CreateAccountForMultipleUser_AmazonSignIn.TC_C...)</span>
+                <span class="method-start">76652 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">TC_CreateNewAccount(Saroj, sarojkumar@test.com, 9952575909, testtest_2)</span>
+                <span class="method-start">76657 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method before">
+                <span class="method-name">CreateInstance(public void in.amazon.nagpselenium.TestCases.Validate_CreateAccountForMultipleUser_AmazonSignIn.TC_C...)</span>
+                <span class="method-start">85559 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">TC_CreateNewAccount(Ankita, Ankitatest@test.com, 9952575907, testtest_3)</span>
+                <span class="method-start">85562 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method before">
+                <span class="method-name">CreateInstance(public void in.amazon.nagpselenium.TestCases.Validate_CreateAccountForMultipleUser_AmazonSignIn.TC_C...)</span>
+                <span class="method-start">93879 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">TC_CreateNewAccount(Abhay, Abhayjkumar@test.com, 9952575906, testtest_4)</span>
+                <span class="method-start">93893 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method before">
+                <span class="method-name">CreateInstance(public void in.amazon.nagpselenium.TestCases.Validate_CreateAccountForMultipleUser_AmazonSignIn.TC_C...)</span>
+                <span class="method-start">102464 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">TC_CreateNewAccount(Deeksha, deelshatest@test.com, 9952575905, testtest_5)</span>
+                <span class="method-start">102475 ms</span>
+              </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">in.amazon.nagpselenium.TestCases.Verify_AmazonPrime</div> <!-- chronological-class-name -->
+              <div class="configuration-class before">
+                <span class="method-name">Initialize(Chrome)</span>
+                <span class="method-start">110689 ms</span>
+              </div> <!-- configuration-class before -->
+              <div class="configuration-method before">
+                <span class="method-name">CreateInstance(public void in.amazon.nagpselenium.TestCases.Verify_AmazonPrime.TC_VerifyPrimeMembership())</span>
+                <span class="method-start">112927 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">TC_VerifyPrimeMembership</span>
+                <span class="method-start">112938 ms</span>
+              </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">in.amazon.nagpselenium.TestCases.Validate_AmazonCart</div> <!-- chronological-class-name -->
+              <div class="configuration-class before">
+                <span class="method-name">Initialize(Chrome)</span>
+                <span class="method-start">205374 ms</span>
+              </div> <!-- configuration-class before -->
+              <div class="configuration-method before">
+                <span class="method-name">CreateInstance(public void in.amazon.nagpselenium.TestCases.Validate_AmazonCart.TC_SearchAndAddToCart(java.lang.ref...)</span>
+                <span class="method-start">207004 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">TC_SearchAndAddToCart(public void in.amazon.nagpselenium.TestCases.Validate_AmazonCart.TC_SearchAndAddToCart(java.lang.ref...)</span>
+                <span class="method-start">207009 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method before">
+                <span class="method-name">CreateInstance(public void in.amazon.nagpselenium.TestCases.Validate_AmazonCart.TC_VerifyCart(java.lang.reflect.Met...)</span>
+                <span class="method-start">228682 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">TC_VerifyCart(public void in.amazon.nagpselenium.TestCases.Validate_AmazonCart.TC_VerifyCart(java.lang.reflect.Met...)</span>
+                <span class="method-start">228692 ms</span>
+              </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">in.amazon.nagpselenium.TestCases.Verify_Amazon_CommonFunctionalities</div> <!-- chronological-class-name -->
+              <div class="configuration-test after">
+                <span class="method-name">Finish</span>
+                <span class="method-start">237428 ms</span>
+              </div> <!-- configuration-test after -->
+              <div class="configuration-suite after">
+                <span class="method-name">CloseInstance</span>
+                <span class="method-start">239572 ms</span>
+              </div> <!-- configuration-suite after -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+      </div> <!-- main-panel-root -->
+    </div> <!-- wrapper -->
+  </body>
+<script type="text/javascript" src="testng-reports2.js"></script>
+</html>

@@ -1,0 +1,5 @@
+in\amazon\nagpselenium\TestCases\Validate_AmazonCart.class
+in\amazon\nagpselenium\base\BaseTest.class
+in\amazon\nagpselenium\TestCases\Verify_AmazonPrime.class
+in\amazon\nagpselenium\TestCases\Validate_CreateAccountForMultipleUser_AmazonSignIn.class
+in\amazon\nagpselenium\TestCases\Verify_Amazon_CommonFunctionalities.class

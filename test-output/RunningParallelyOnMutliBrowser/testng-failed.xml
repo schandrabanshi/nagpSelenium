@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite thread-count="2" parallel="tests" name="Failed suite [RunningParallelyOnMutliBrowser]" guice-stage="DEVELOPMENT">
+  <test thread-count="2" parallel="tests" name="MutliBrowserTestChrome(failed)">
+    <parameter name="browser" value="Chrome"/>
+    <classes>
+      <class name="in.amazon.nagpselenium.TestCases.Verify_Amazon_CommonFunctionalities">
+        <methods>
+          <include name="CreateInstance"/>
+          <include name="Initialize"/>
+          <include name="Finish"/>
+          <include name="TC_SetDeliveryTo_ZipCode_Location"/>
+          <include name="CloseInstance"/>
+        </methods>
+      </class> <!-- in.amazon.nagpselenium.TestCases.Verify_Amazon_CommonFunctionalities -->
+    </classes>
+  </test> <!-- MutliBrowserTestChrome(failed) -->
+</suite> <!-- Failed suite [RunningParallelyOnMutliBrowser] -->

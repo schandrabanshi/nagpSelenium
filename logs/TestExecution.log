@@ -1,0 +1,3 @@
+2022-11-07 17:21:08.000 [main] INFO  in.amazon.nagpselenium.reporterLogging.Logging - Opening Chrome browser.
+2022-11-07 17:21:23.942 [main] INFO  in.amazon.nagpselenium.reporterLogging.Logging - Navigating to TV Store page.
+2022-11-07 17:21:31.613 [main] INFO  in.amazon.nagpselenium.reporterLogging.Logging - Opening first search iteam.
