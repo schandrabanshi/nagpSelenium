@@ -17,7 +17,7 @@
 				<configuration>
 					<!-- Suite testng xml file to consider for test execution -->
 					<suiteXmlFiles>
-						<suiteXmlFile>testingBrowserChrome.xml</suiteXmlFile>
+						<suiteXmlFile>testngChrome.xml</suiteXmlFile>
 					</suiteXmlFiles>
 					
 				</configuration>
@@ -90,6 +90,12 @@
 	        <artifactId>xcelite</artifactId>
 	        <version>1.0.4</version>
 	    </dependency>
+		<dependency>
+		    <groupId>org.projectlombok</groupId>
+		    <artifactId>lombok</artifactId>
+		    <version>1.18.24</version>
+		    <scope>provided</scope>
+		</dependency>
 
 
 	</dependencies>
